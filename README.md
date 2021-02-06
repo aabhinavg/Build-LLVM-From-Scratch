@@ -6,6 +6,12 @@
 - [LLVM](https://llvm.org/) abbrevation is Low Level Virtual Machine.LLVM is a framework which is used to developed new language and improve existing     one.
 - It consist of tools which is helping industry in language creation,creating a compiler, transferring the output code to multiple platforms and           architectures along with generation of architecture-specific optimizations.
 - LLVM also consist of libraries, and header files which are used in process of converting binaries in to intermediate representations and converts it     into object files. Tools include an assembler, disassembler, bitcode analyzer, and bitcode optimizer. It also contains basic regression tests.
-- The main advatnage of the LLVM project is that it provide a [SSA-based](https://en.wikipedia.org/wiki/Static_single_assignment_form)  (static single     assignment) compilation strategy.</br>
+- The main advatnage of the LLVM project is that it provide a [SSA-based](https://en.wikipedia.org/wiki/Static_single_assignment_form)  (static single     assignment) compilation strategy.
 
-**Building LLVM **
+**Building LLVM And Clang**
+- ***In Unix/Linux System***</br>
+    - [Click here to see the requirement before initiating](https://llvm.org/docs/GettingStarted.html#requirements)
+    - Required pyhton to run test suite. [Click Here](https://www.python.org/downloads/).
+    - Build process require CMAKE. [Click Here](https://cmake.org/download/)
+
+
