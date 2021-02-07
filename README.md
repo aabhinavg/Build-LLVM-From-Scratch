@@ -27,23 +27,21 @@
       
  - ***In Windows***</br>
     - **Requirements**
-      - Hardware
+      - **Hardware**
         - Any system that can adequately run Visual Studio 2017 is fine. The LLVM source tree and object files, libraries and executables will consume           approximately 3GB.</br>
         
-      - Software
-      
+      - **Software**
         - Need Visual Studio, Cmake[Click Here to Download](https://cmake.org/).
         - Required Python [Click Here To Download](https://www.python.org/).(version 3.6 or greater than 3.6)
         - Required [GnuWin32](http://gnuwin32.sourceforge.net/).
         
-      - Steps Required
-       
-       - Get the Source Code
+      - **Steps Required**
+         - **Get the Source Code**
             - With the distributed files:
             - cd <where-you-want-llvm-to-live>
             - gunzip --stdout llvm-VERSION.tar.gz | tar -xvf - (or use WinZip)
             - cd llvm
-            - With git access:
+            - **With git access:**
                 - Note: some regression tests require Unix-style line ending (\n).
                 - cd <where-you-want-llvm-to-live>
                 - git clone https://github.com/llvm/llvm-project.git llvm
