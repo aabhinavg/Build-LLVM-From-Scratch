@@ -15,7 +15,7 @@
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>clang -O3 -emit-llvm hello.c -c -o hello.bc
 </pre></div>
   <p>The -emit-llvm option can be used with the -S or -c options to emit an LLVM
-<li><p class="first">Run the program in both forms. To run the program, use:</p>
+  <p class="first">Run the program in both forms. To run the program, use:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>./hello
 </pre></div>
 </div>
