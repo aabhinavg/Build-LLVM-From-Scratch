@@ -10,3 +10,8 @@
 **Compile C file using Clang**
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>clang hello.c -o hello
 </pre></div>
+
+**Convert C file to LLVM Bitcode**
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>clang -O3 -emit-llvm hello.c -c -o hello.bc
+</pre></div>
+  <p>The -emit-llvm option can be used with the -S or -c options to emit an LLVM
