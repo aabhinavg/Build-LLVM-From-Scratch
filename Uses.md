@@ -25,7 +25,7 @@
 </div>
   
 **The second examples shows how to invoke the LLVM JIT**   </br>
-<li><p class="first">Use the <code class="docutils literal notranslate"><span class="pre">llvm-dis</span></code> utility to take a look at the LLVM assembly code:</p>
+<p class="first">Use the <code class="docutils literal notranslate"><span class="pre">llvm-dis</span></code> utility to take a look at the LLVM assembly code:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">% </span>llvm-dis &lt; hello.bc <span class="p">|</span> less
 </pre></div>
 </div>
