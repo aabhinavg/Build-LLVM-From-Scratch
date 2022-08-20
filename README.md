@@ -17,13 +17,15 @@
  - ***Steps Required***
     - Go to the directory where you want your llvm project to be their.
     - Clone the repository by using  command
-            - git clone https://github.com/llvm/llvm-project.git (if git is not their install it by giving command sudo apt-get install git).
-            - Now use the following command 
-            - cd llvm-project ; mkdir build ; cd build;
-            - cmake ../llvm -G -DCMAKE_BUILD_TYPE=RELEASE -DLLVM_TARGET_TO_BUILD="x86"
-            - make -j   </br>
+    - git clone https://github.com/llvm/llvm-project.git (if git is not their install it by giving command sudo apt-get install git). 
+    - cd llvm-project 
+    - mkdir build 
+    - cd build
+    - cmake ../llvm -G -DCMAKE_BUILD_TYPE=Debug -DLLVM_TARGET_TO_BUILD="x86".
+    - make -j8    </br>
             
-      Note this will build both llvm and clang both in debug mode.
+      Note this will build both llvm and clang both in debug mode. To build in release mode just change flag DCMAKE_BUILD_TYPE=Release
+      clang will be install in /path/to/llvm-project/build/bin
       
  - ***In Windows***</br>
     - **Requirements**
